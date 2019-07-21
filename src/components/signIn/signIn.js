@@ -29,7 +29,7 @@ class SignIn extends Component {
         return (
             <div className="sign-in">
                 <h2>I already have an account.</h2>
-                <p>Sign in with your email and password.</p>
+                <span>Sign in with your email and password.</span>
 
                 <form onSubmit={this.handleSubmit}>
                     <FormInput type="email" name="email" value={this.state.email} required
